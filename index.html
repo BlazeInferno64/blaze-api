@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Demo</title>
+</head>
+<body>
+    <form action="/api/v1/submit" method="post" id="form">
+        <input type="text" id="input" name="text" placeholder="Enter some text here..." />
+        <br>
+        <button id="btn">
+            Submit
+        </button>
+    </form>
+    <br>
+    <button id="button">
+        Get Data from server
+    </button>
+    <br>
+    <br>
+    <textarea name="Data" style="height:170px; resize: none;" id="res" placeholder="Data from server will be displayed here..."></textarea>
+    <script>
+        const btn = document.querySelector("#button");
+        const res = document.querySelector("#res");
+
+        btn.addEventListener("click",(e) => {
+            res.value = "Getting data...";
+            setTimeout(() => {
+                fetchData("/api/v1/");
+            }, 1000);
+        })
+        function fetchData(url){
+            fetch(url)
+            .then(file => file.json())
+            .then(data => {
+                const parsedData = JSON.stringify(data);
+                res.value = parsedData;
+            })
+            .catch(err => res.value = err);
+        }
+    </script>
+</body>
+</html>
