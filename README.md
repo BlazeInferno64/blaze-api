@@ -12,7 +12,7 @@ https://blaze-web-server.onrender.com
 
 # Test the api here at-
 
-<a href="https://blaze-web-server.onrender.com"/test">
+<a href="https://blaze-web-server.onrender.com/test">
 
 ```
 https://blaze-web-server.onrender.com/test
