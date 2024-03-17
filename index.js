@@ -13,7 +13,7 @@ const ipRoute = require("./routes/ip-routes");
 const postUserRoute = require("./routes/post-user-route");
 
 app.use(express.urlencoded({extended: true,}));
-//app.enable("trust proxy");
+app.enable("trust proxy");
 app.use("/api/user", userRouter);
 app.use("/visitor-count",visitorRoute);
 app.use("/api/ip",ipRoute);
