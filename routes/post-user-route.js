@@ -58,7 +58,7 @@ router.post("/submit",(req, res) => {
     const username = req.body.name;
     const description = req.body.about;
     const favLang = req.body.language;
-    const hobbies = req.body.hobby;
+    const hobbies = req.body.hobbies;
 
     const fileLocation = path.join(__dirname, "../public/api/post-user-api/user.json");
 

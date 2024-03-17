@@ -33,11 +33,6 @@ app.get("/",(req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
-app.get("/ip",(req, res) => {
-    const ip = req.ip;
-    res.send(ip);
-})
-
 app.get("/github",(req, res) => {
     console.log(`Redirecting visitors!`)
     res.redirect("https://github.com/blazeinferno64");

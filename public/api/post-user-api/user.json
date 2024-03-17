@@ -1,5 +1,6 @@
 {
-  "Name": "Default User",
-  "Description": "Hello World I am alive!",
-  "Favourite_Language": "python"
+  "Name": "Jack Sparrow",
+  "Favourite_Language": "NodeJS",
+  "Hobbies": "Coding",
+  "Description": "Hello World"
 }
