@@ -5,7 +5,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 const path = require("path");
 const { count } = require("console");
-const port = 3000;
+const port = 80;
 
 const userRouter = require("./routes/user-routes");
 const visitorRoute = require("./routes/visitor-route")
