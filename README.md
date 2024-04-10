@@ -10,15 +10,6 @@ https://blaze-web-server.onrender.com
 ```
 </a>
 
-# Test the api here at-
-
-<a href="https://blaze-web-server.onrender.com/test">
-
-```
-https://blaze-web-server.onrender.com/test
-```
-</a>
-
 <br>
 
 
