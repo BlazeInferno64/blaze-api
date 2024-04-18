@@ -12,7 +12,8 @@
   "description": "A public rest api made in nodejs",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon index.js"
+    "devStart": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "BlazeInferno64",
   "license": "ISC",
