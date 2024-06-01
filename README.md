@@ -7,6 +7,7 @@ Free and open source public rest api made using NodeJS
 The api gatepoint is provided below 
 
 <a href="https://blaze-api.onrender.com">
+    
 ```
 https://blaze-api.onrender.com
 ```
