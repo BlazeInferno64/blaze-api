@@ -1,24 +1,19 @@
 {
   "dependencies": {
     "body-parser": "^1.20.2",
-    "ejs": "^3.1.9",
-    "express": "^4.18.3",
-    "express-rate-limit": "^7.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "nodemon": "^3.1.0",
     "path": "^0.12.7"
   },
-  "name": "blaze-web-server-2.0",
+  "name": "blaze-api",
   "version": "1.0.0",
-  "description": "A public rest api made in nodejs",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon index.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
+  "keywords": [],
   "author": "BlazeInferno64",
   "license": "ISC",
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "cors": "^2.8.5"
-  }
+  "description": "A free open source public rest api made using NodeJS"
 }

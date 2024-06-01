@@ -3,30 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Users List</title>
+    <title>Document</title>
 </head>
-<style>
-    body{
-        font-family: sans-serif;
-    }
-</style>
 <body>
-    <h3>
-        Available users
-    </h3>
-    <ul>
-        <li>
-            <a href="user?name=John">John Doe</a>
-        </li>
-        <li>
-            <a href="user?name=Jack">Jack Sparrow</a>
-        </li>
-        <li>
-            <a href="user?name=Jane">Jane Doe</a>
-        </li>
-        <li>
-            <a href="user?name=Michael">Michael Jackson</a>
-        </li>
-    </ul>
+    <center>
+        <h3>
+            Create New Users
+        </h3>
+        <br>
+        <form action="/api/users" method="post">
+            <label for="fname">
+                First-Name:
+            </label>
+            <br>
+            <input type="text" name="first-name" id="fname" placeholder="Enter first name..."/>
+            <br>
+            <label for="lname">
+                Last-Name:
+            </label>
+            <br>
+            <input type="text" name="last-name" id="lname" placeholder="Enter last name..."/>
+            <br>
+            <label for="email">
+                E-mail:
+            </label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter email..."/>
+            <br>
+            <label for="gender">
+                Gender:
+            </label>
+            <br>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+            <label for="job">
+                Job:
+            </label>
+            <br>
+            <textarea name="job" id="job" placeholder="Enter job..." style="height: 170px;"></textarea>
+            <br>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </center>
 </body>
 </html>
