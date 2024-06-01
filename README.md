@@ -53,6 +53,7 @@ So the api gatepoint for this api is - `https://blaze-api.onrender.com/api/users
 Let's move to the first topice,i.e, getting users data
 <br>
 So if you want to grab the data then send a GET request to https://blaze-api.onrender.com/api/users/{USER_ID} and basically the {USER_ID} means the id of the user you want to get (Can be any ID) if there isn't any user found with the matched id then the server would response with a status of `404` as the user doesn't exists!
+<br>
 So if you want to see how many users data are present then first of all visit https://blaze-api.onrender.com/users
 
 Now let me show you a basic example on getting a user's data using JavaScript's native fetch api -
