@@ -124,7 +124,7 @@ So that's it for the rest api!
 Hope you like it!
 
 # Server Status
-To check whether the server is active or not visit htttp://blaze-api.onrender.com/api/status to know the server status!
+To check whether the server is active or not visit https://blaze-api.onrender.com/api/status to know the server status!
 
 # Bug & Issues
 If any bugs/issues occur then feel free to file up an issue here!
